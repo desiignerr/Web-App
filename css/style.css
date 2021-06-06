@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -61,222 +63,49 @@
     line-height: 70px;
     padding: 0 10px 0 10px;
 }
-/*-------Fashion Trends-------*/
-.Fashion-Trends{
-    padding: 100px 0;
+.main{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.Fashion-Box{
-    margin: 80px 0 ;
+.topbar{
+    background-color: teal;
+    overflow: hidden;
 }
-.title-Style h1{
-    padding: 40px 0;
+.topbar a{
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
 }
-.title-Style{
-    margin: 0 auto 80px;
-    height: 120px;
-    width: 80%;
-    max-width: 700px;
-    background: #fff;
-    position: relative;
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0.5);
+.sidebar{
+    background-color: #333;
+    color: white;
+    height: 100%;
+  
 }
-.title-Style::after
-{
-    content: '';
-    height: 100px;
-    width: 200px;
-    background-color: #f992a6;
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    z-index: -1;
-}
-.title-Style::before
-{
-    content: '';
-    height: 100px;
-    width: 200px;
-    background-color: #f992a6;
-    position: absolute;
-    bottom: -10px;
-    right: -10px;
-    z-index: -1;
-}
-/*--images with an event--*/
-.treanding-img{
-    position: relative;
-    margin-bottom: 15px;
-}
-.treanding-img img{
-    width: 100%;
-}
-.btn-buy{
-    width: 150px;
-    padding: 10px 0;
-    outline: none !important;
-    border: 0;
-    border-radius: 2px;
-    position: absolute;
-    background: #fff;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%,0);
-    transition: .6s;
-    opacity: 0;
-    z-index: 1;
-}
-.treanding-img:hover .btn-buy
-{
-     transform: translate(-50%, 50%);
-     bottom: 50%;
-     opacity: 1;
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
 
 }
-.overlay
-{
-    height:0;
-    width: 100%;
-    background: #333;
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    transition: .5s;
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
 }
-.treanding-img:hover .overlay
-{
-    opacity: .5;
-    height: 100%;
-} 
-/*----offer----*/
-.offer
-{
-    background-image:url(images/4k-wallpaper-abstract-art-1270954.jpg) !important ;
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    background-color: hotpink;
-}
-.row
-{
-margin: initial !important;
-}
-.subscribe
-{
-    max-width: 500px;
-    margin-top: 80px;
-    padding: 60px;
-    background:#ffffff8c;
-    margin-bottom: 20px;
-    height: 350px;
-}
-.text
-{
-    height: 120px;
-}
-.subscribe a
-{
-width: 100px;
-display: block;
-color: #fff !important;
-background: #000;
- text-decoration: none !important;
- padding: 5px;
- text-align: center;
-}
-.offer img
-{
-    width: 300px;
-    height: 400px;
-    margin: -100px;
-    margin-top: 150px;
-}
-/*-----fashion-blog----*/
-.fashion-blog
-{
-    margin: 250px 0 150px 0
-}
-.blog-img
-{
-    margin-top: 50px;
-    height: 300px;
-    width: 300px;
-    display:inline-block;
-}
-.blog-img img
-{
-    height: 100%;
-    width: 100%;
-}
-.fashion-blog h5
-{
-    margin-top: 20px;
-    font-weight: bold;
-}
-/*----*/
-.fashion-brands
-{
-    margin-bottom: 150px;
-}
-.brand-logo
-{
-    width: 200px;
-    height: 200px;
-    background: #fff;
-    border-radius: 50%;
-    margin: 50px auto 30px;
-    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, 18);
-}
-.brand-logo img
-{
-    width: 100px;
-    margin: 50px auto;
-}
-.fashion-brands p
-{
-    margin-top: 30px;
-    font-weight: bold;
-}
-
-.logo{
-    height: 70px;
-    width: 130px;
-    margin-top: -13px;
-}
-/*-------footer----------*/
-.footer
-{
-margin-top: 150px;
-background: #f5f6fc;
-}
-.payment
-{
-    margin: 50px auto;
-}
-.payment img
-{
-   width:300px;
-   cursor: pointer;   
-}
-.insta-img img
-{
-width: 75px;
-height: 5px;
-cursor: pointer;
-}
-.app-download img
-{
-width: 200px;
-}
-.footer h5
-{
-    margin-bottom: 50px;
-}
-.footer h5
-{
-    content: '';
-    width: 70px;
-    height: 3px;
-    background: #4f74e8;
-    top: 75px;
-    position: absolute;
+.content{
+    background-color: whitesmoke;
 }
